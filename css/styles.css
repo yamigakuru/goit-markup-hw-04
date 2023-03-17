@@ -231,7 +231,7 @@ img{
 
 .section-four {
     background: #F4F4FD;
-    padding-bottom: 120px;
+    padding-bottom: 157px;
     padding-top: 120px;
 }
 
@@ -275,24 +275,80 @@ img{
     text-align: center;
 }
 
+
 .social-icons{
     width: 40px;
     height: 40px;
     background: var(--logo-color);
     border-radius: 50%;
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: row;
+    align-items: center;
+    
 }
 
 .social-icons:is(:hover, :focus){
     background: #404BBF;
 }
 
+.icons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 8px;
+}
+
 .soc-icon{
+
+}
+
+.section-five{
+    padding-bottom: 120px;
+    padding-top: 83px;
+}
+
+.section-five-text{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--primary-color);
+    margin-bottom: 72px;
+}
+
+.customers-icons{
+    display: flex;
+    gap: 24px;
     
 }
+
+.customers-list{}
+
+
+.customers-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.section-five-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 168px;
+    height: 88px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    padding: 16px 32px
+}
+
+
 
 .footer{
     background: var(--primary-color);
@@ -320,6 +376,22 @@ img{
     color: #E7E9FC;
     max-width: 264px;
     margin-top: 16px;
+}
+
+.social-media-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.social-media{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
 }
 
 
