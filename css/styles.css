@@ -81,6 +81,7 @@ img{
     box-sizing: border-box;
     background: #FFFFFF;
     border-bottom: 1px solid #E7E9FC;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container{
@@ -135,6 +136,7 @@ img{
     padding-top: 188px;
     padding-bottom: 188px;
     background-image: linear-gradient(90deg, rgba(46, 47, 66, 0.7035013834635417) 100%, rgba(46, 47, 66, 0.7) 100%), url(..//images/people-office.jpg);
+    max-width: 1440px;
 }
 
 .section-one-text {
@@ -239,6 +241,7 @@ img{
     background-color: white;
     border-radius: 0px 0px 4px 4px;
     padding-bottom: 32px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .section-four-text {
@@ -287,6 +290,7 @@ img{
     
 }
 
+
 .social-icons:is(:hover, :focus){
     background: #404BBF;
 }
@@ -326,6 +330,7 @@ img{
     
 }
 
+
 .customers-list{}
 
 
@@ -337,6 +342,7 @@ img{
     gap: 24px;
 }
 
+
 .section-five-icons{
     display: flex;
     align-items: center;
@@ -345,10 +351,14 @@ img{
     height: 88px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
-    padding: 16px 32px
+    padding: 16px 32px;
+    fill: #8E8F99;
 }
 
-
+.section-five-icons:is(:hover, :focus){
+    fill: #404BBF;
+    border-color: #404BBF;
+}
 
 .footer{
     background: var(--primary-color);
@@ -378,12 +388,18 @@ img{
     margin-top: 16px;
 }
 
-.social-media-container{
+.footer-icons{
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
+}
+
+.footer-icons:is(:hover, :focus){
+    background: #31D0AA;
 }
 
 .social-media{
@@ -394,6 +410,13 @@ img{
     color: #FFFFFF;
 }
 
+.social-media-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+}
 
 .portfolio-section{
     padding-top: 96px;
@@ -457,4 +480,8 @@ img{
     padding: 32px 0 32px 16px;
     border: 1px solid #E7E9FC;
     border-style: none solid solid solid;
+}
+
+.portfolio-list:is(:hover, :focus){
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
