@@ -394,28 +394,38 @@ img{
     background: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .footer-icons:is(:hover, :focus){
     background: #31D0AA;
 }
 
+
+.social-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container{
+    display: flex;
+}
+
+.footer-list{
+    display: flex;
+    justify-content: center; 
+    gap: 16px;
+}
+
 .social-media{
-    font-weight: 500;
+    margin-bottom: 8px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-}
-
-.social-media-container{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 16px;
+    margin-left: 120px;
 }
 
 .portfolio-section{
