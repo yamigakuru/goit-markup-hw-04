@@ -330,10 +330,6 @@ img{
     
 }
 
-
-.customers-list{}
-
-
 .customers-container{
     display: flex;
     align-items: center;
@@ -344,18 +340,11 @@ img{
     border: 1px solid #8E8F99;
     border-radius: 4px;
     padding: 16px 32px;
-}
-
-
-.customers-container:is(:hover, :focus){
-    border-color: #404BBF;
-}
-
-.section-five-icons {
     fill: #8E8F99;
 }
 
-.section-five-icons:is(:hover, :focus){
+.customers-container:is(:hover, :focus){
+    border-color: #404BBF;
     fill: #404BBF;
 }
 
@@ -419,6 +408,7 @@ img{
 
 .social-media{
     margin-bottom: 8px;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
